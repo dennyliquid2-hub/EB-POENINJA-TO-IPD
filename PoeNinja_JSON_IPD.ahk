@@ -21,22 +21,22 @@ chaosValue := {}
 
 ; values greater -> "StashItem"
 chaosValue["Currency"]        := 0.0
-chaosValue["Fragment"]        := 5.0
-chaosValue["Runegraft"]       := 5.0
-chaosValue["AllflameEmber"]   := 5.0
+chaosValue["Fragment"]        := 4.0
+chaosValue["Runegraft"]       := 1.0
+chaosValue["AllflameEmber"]   := 4.0
 chaosValue["Tattoo"]          := 5.0
 chaosValue["Omen"]            := 5.0
-chaosValue["DivinationCard"]  := 5.0
+chaosValue["DivinationCard"]  := 2.0
 chaosValue["Artifact"]        := 5.0
-chaosValue["Oil"]             := 5.0
-chaosValue["DeliriumOrb"]     := 5.0
-chaosValue["Scarab"]          := 5.0
-chaosValue["Fossil"]          := 5.0
-chaosValue["Resonator"]       := 1.0
-chaosValue["Essence"]         := 5.0
+chaosValue["Oil"]             := 1.0
+chaosValue["DeliriumOrb"]     := 1.0
+chaosValue["Scarab"]          := 1.0
+chaosValue["Fossil"]          := 0.0
+chaosValue["Resonator"]       := 0.0
+chaosValue["Essence"]         := 2.0
 chaosValue["Incubator"]       := 1.0
-chaosValue["Invitation"]      := 5.0
-chaosValue["Memory"]          := 5.0
+chaosValue["Invitation"]      := 0.0
+chaosValue["Memory"]          := 0.0
 chaosValue["Beast"]           := 5.0
 chaosValue["Vial"]            := 2.0
 
@@ -339,4 +339,5 @@ DllCall("winmm\PlaySound" (A_IsUnicode?"W":"A"), Str,"none", Ptr,0, UInt,0x20000
 
 Gui, Destroy
 MsgBox, JSON to IPD finished!
+
 ExitApp
